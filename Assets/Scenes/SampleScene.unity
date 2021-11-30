@@ -4162,7 +4162,7 @@ MonoBehaviour:
   mouse: {fileID: 963194230}
   shootSound: {fileID: 8300000, guid: f5e22e3f0b32ecc4cbe6e069f39546ad, type: 3}
   shootingMode: 0
-  vRecoil: 0.45
+  vRecoil: 0.2
   hRecoil: 0.2
   AimAnim: {fileID: 1556582518}
   aim: 0
@@ -6561,7 +6561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cece580c2013e4788b61d36d92af40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 100
+  sensitivity: 50
   player: {fileID: 1583168653}
   anim: {fileID: 614462728}
 --- !u!1 &969986952
@@ -11308,7 +11308,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.111
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -11330,7 +11330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481b6c2f313d20a44a621d2b9281691a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 200
 --- !u!1 &1589237758
 GameObject:
   m_ObjectHideFlags: 0
